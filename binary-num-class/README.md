@@ -1,0 +1,2 @@
+# binary-num-class
+ C++ OOP learning task: make a class object of which represents a binary number;   the required methods are ++ and +=. In such a class, the number is an instance of std::string;   it should be enlarged if addition so requires while addition should not lead to redundant   zeros at the beginning of the number. The required methods here do not I implement in a standard way (i.e. ordinary addition with carrying forward ones and checking like 1 &amp; 1, 1 || 1, 0 &amp; 0    requires many ifs in each iteration, which is, in my opinion, not effective).

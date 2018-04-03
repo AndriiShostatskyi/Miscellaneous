@@ -1,0 +1,18 @@
+<recipes>
+  <name dishname="яйчница">
+      <ingridient ingridient_name="яйца" quantity="2" measure="шт."/>
+      <ingridient ingridient_name="помидоры" quantity="100" measure="гр."/>
+      <ingridient ingridient_name="яйца" quantity="2" measure="шт."/>
+</name>
+  <name dishname="стейк">
+      <ingridient ingridient_name="говядина" quantity="300" measure="гр."/>
+      <ingridient ingridient_name="специи" quantity="5" measure="гр."/>
+      <ingridient ingridient_name="масло" quantity="10" measure="мл."/>
+  </name>
+  <name dishname="салат">
+      <ingridient ingridient_name="помидоры" quantity="100" measure="гр."/>
+      <ingridient ingridient_name="огурцы" quantity="100" measure="гр."/>
+      <ingridient ingridient_name="масло" quantity="100" measure="мл."/>
+      <ingridient ingridient_name="лук" quantity="1" measure="шт."/>
+  </name>
+</recipes>

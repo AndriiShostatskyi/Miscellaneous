@@ -1,0 +1,9 @@
+
+deamon: main.o avltree.o
+    gcc -Wall main.o avltree.o -o deamon
+	
+main.o: main.c avltree.h
+    gcc -c -Wall main.c
+
+avltree.o: avltree.c avltree.h
+    gcc -c -Wall avltree.c

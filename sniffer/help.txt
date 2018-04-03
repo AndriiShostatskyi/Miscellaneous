@@ -1,0 +1,14 @@
+Available commands are as follows:
+
+start – starts the daemon for sniffing. When doing so, it opens ips_stat.txt and
+loads the statistics (if any) into AVL tree that stores ips and number of incoming packets while the daemon is running.
+
+stop – stops the daemon process by sending to it SIGTERM, after which statistics fro, AVL tree is saved in ips_stat.txt and the daemon exits.
+
+show all – shows all available devices (infaces) for sniffing.
+
+select [iface] count – selects the device (iface), the name of which is entered, for sniffing by saving its name in device.txt. If the entered device (iface) does not exists or cannot be sniffed, an error message will appear, device.txt remaining intact.
+
+--help – shows usage information.
+
+In order to run this program, the user must have root privileges.
